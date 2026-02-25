@@ -1,0 +1,6 @@
+[submodule "themes/nojs"]
+	path = themes/nojs
+	url = https://github.com/raphaeltannous/nojs.git
+[submodule "assets/icons/fontawesome"]
+	path = assets/icons/fontawesome
+	url = https://github.com/FortAwesome/Font-Awesome
