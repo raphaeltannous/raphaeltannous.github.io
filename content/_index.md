@@ -10,6 +10,7 @@ title: '/riyt.dev/'
 
 Hey! I'm  Raphael Tannous. Nice to meet you!
 I like Linux (Arch BTW!), and I program mostly in Go.
+I have a strong interest in cybersecurity and applied cryptography.
 I enjoy writing simple, non-bloated software, and listening to [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 Enjoy the site (No Javascript)!
 
