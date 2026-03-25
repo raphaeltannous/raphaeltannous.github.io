@@ -84,3 +84,28 @@ func canPartitionArray(nums []int) bool {
 	return false
 }
 ```
+
+## Improving `canPartitionArray()`
+
+Space complexity can be improved from $O(N)$ to $O(1)$ by using a single variable instead of storing the entire prefix array.
+
+First, calculate the total sum of the array. Then, instead of saving all prefix sums in an array, keep track of just the left sum using one variable as you go through the array. At each step, check if the left sum equals the right sum (the total minus the left sum). When they're equal, a partition exists. This saves memory by not needing an array, while still taking the same amount of time to check all possible cuts.
+
+```go {linenos=inline}
+func canPartitionArray(nums []int) bool {
+	total := 0
+	for _, num := range nums {
+		total += num
+	}
+
+	prefix := 0
+	for i := 1; i < len(nums); i++ {
+		prefix += nums[i-1]
+		if total-prefix == prefix {
+			return true
+		}
+	}
+
+	return false
+}
+```
