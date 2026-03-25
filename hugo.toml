@@ -13,3 +13,17 @@ theme = "nojs"
     name = 'Blog'
     pageRef = '/blog'
     weight = 2
+
+  [[menus.main]]
+    name = 'LeetCode Solutions'
+    pageRef = '/leetcode-solutions'
+    weight = 3
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$']]
+          inline = [['$', '$']]
