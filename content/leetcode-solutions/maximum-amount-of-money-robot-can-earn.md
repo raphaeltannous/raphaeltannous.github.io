@@ -9,17 +9,17 @@ leetcodeSolutionLink: 'https://leetcode.com/problems/maximum-amount-of-money-rob
 
 # Intuition
 
-The problem is a dynamic programming problem with a small twist which is that we can netralize robbers that rob the robot if the cell is negative at most **2** times.
+The problem is a dynamic programming problem with a small twist which is that we can neutralize robbers that rob the robot if the cell is negative at most **2** times.
 
 This will introduce an additional constraint to cell position which is the number of neutralize left to use.
 
-> `R` is `len(coins)` and `C` is `len(coins[0])-1`. `nLeft` is the number of neutralization left for the robot to do.
+> `R` is `len(coins)` and `C` is `len(coins[0])-1`. `nLeft` is the number of neutralizations left.
 
 Starting from `(0, 0)` and going to `(R-1, C-1)`, we at each step consider two cases:
 
-- **Not neutralizing the robot:**
+- **No neutralizing the robber:**
     - We collect `coins[y][x]` and continue moving down or right.
-- **Neutralizing the robot (if `coins[y][x] < 0`):**
+- **Neutralizing the robber (if `coins[y][x] < 0`):**
     - If `nLeft > 0` and `coins[y][x] < 0`, we can neutralize the robber, and "skip" current cell.
 
 We need to consider base cases:
@@ -27,7 +27,7 @@ We need to consider base cases:
 - `y` and `x` are out of bounds.
     - If we are out of bounds we cannot return `0` since the result might be negative. We are left with returning `math.MinInt` ($-\infin$).
 - We are at the last cell.
-    - If the last cell is negative and we have left neutralization we return `0`, otherwise we return the last cell's value.
+    - If the last cell is negative and we still have left neutralizations we return `0`, otherwise we return the last cell's value.
 
 **Can an overflow happen if we return $-\infin$?**
 
@@ -38,7 +38,7 @@ We need to consider base cases:
 |Last column|real value|`MinInt`|real value|
 |Bottom-right|—|—|**caught by base case first**|
 
-The table shows when we return $-\infin$ and ther result of the `max` function used to get the max path value.
+The table shows when we return $-\infin$ and the result of the `max` function used to get the max path value.
 
 Notice that `max` never has `math.MinInt, math.MinInt` to result in an integer overflow if we add to it a negative number.
 
