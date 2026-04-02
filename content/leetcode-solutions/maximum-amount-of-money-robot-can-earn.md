@@ -84,7 +84,7 @@ If we do not caught the last cell (bottom right position) an overflow will happe
 
 # Code
 
-```golang []
+```go {linenos=inline}
 import "math"
 
 func maximumAmount(coins [][]int) int {
