@@ -29,7 +29,7 @@ We can further and only check the condition $a + b > c$ if we sort the sides.
 >
 > Since `c` is the largest $a + c > b$ is automatically satisfied. Same goes for $b + c > a$.
 
-To get the angles after we are sure that we can create the triangle, we can use law of cosines.
+To get the angles after we are sure that we can create the triangle, we can use law of cosines:
 
 $$
 \begin{aligned}
