@@ -24,11 +24,11 @@ We are tasked to return the number of edges connected to `i`, and the sum of `ma
 
 # Complexity
 
-- Time complexity: $$O(N^2)$$.
+- Time complexity: $O(N^2)$.
     - We visit every cell once.
 
-- Space complexity: $$O(N)$$.
-    - `result` contains $$N$$ elements.
+- Space complexity: $O(N)$.
+    - `result` contains $N$ elements.
 
 # Code
 
