@@ -6,7 +6,7 @@ tags:
 - Array
 - Go
 leetcodeProblemSlug: 'minimum-distance-to-the-target-element'
-leetcodeSolutionLink: ''
+leetcodeSolutionLink: 'https://leetcode.com/problems/minimum-distance-to-the-target-element/solutions/7945136/idiomatic-go-detailed-explanation-starti-9hz4'
 ---
 
 # Intuition
