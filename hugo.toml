@@ -27,3 +27,6 @@ theme = "nojs"
         [markup.goldmark.extensions.passthrough.delimiters]
           block = [['\[', '\]'], ['$$', '$$']]
           inline = [['\(', '\)'], ['$', '$']]
+
+  [markup.highlight]
+    lineNos = "inline"
