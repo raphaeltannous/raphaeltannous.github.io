@@ -9,7 +9,7 @@ leetcodeSolutionLink: 'https://leetcode.com/problems/angles-of-a-triangle/soluti
 
 # Intuition
 
-We are giving 3 sides of a supposed triangle and we want to see if we can form a triangle, and return the angles in degrees if we can.
+We are giving 3 sides of a supposed triangle and we want to see if we can form a triangle, and return the angles in degrees.
 
 To create a triangle from these 3 sides, we want the sum of any two sides to be greater than the third side (Triangle Inequality Theorem). If this condition is not met that means we cannot create a triangle from these 3 sides.
 
