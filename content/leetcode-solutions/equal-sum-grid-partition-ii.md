@@ -43,7 +43,7 @@ Rather than handling horizontal and vertical cuts separately, we rotate the grid
 
 # Code
 
-```go {linenos=inline}
+```go
 func canPartitionGrid(grid [][]int) bool {
 	total := 0
 	for _, row := range grid {

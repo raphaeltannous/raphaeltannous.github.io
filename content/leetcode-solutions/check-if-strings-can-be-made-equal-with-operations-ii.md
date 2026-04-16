@@ -50,7 +50,7 @@ So we need to:
     - We create the offset variable: $O(1)$.
 
 # Code
-```go {linenos=inline}
+```go
 func checkStrings(s1 string, s2 string) bool {
 	parity := [52]int{}
 

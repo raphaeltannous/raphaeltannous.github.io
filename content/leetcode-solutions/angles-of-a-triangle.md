@@ -66,7 +66,7 @@ $$
 
 # Code
 
-```go {linenos=inline}
+```go
 import (
 	"math"
 	"slices"

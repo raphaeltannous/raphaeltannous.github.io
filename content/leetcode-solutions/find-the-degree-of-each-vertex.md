@@ -32,7 +32,7 @@ We are tasked to return the number of edges connected to `i`, and the sum of `ma
 
 # Code
 
-```go {linenos=inline}
+```go
 func findDegrees(matrix [][]int) []int {
 	result := make([]int, len(matrix))
 

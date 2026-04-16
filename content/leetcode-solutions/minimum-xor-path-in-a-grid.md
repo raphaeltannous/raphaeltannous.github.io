@@ -54,7 +54,7 @@ So we need to:
 
 ## Implementation
 
-```go {linenos=inline}
+```go
 func minCost(grid [][]int) int {
 	R, C := len(grid), len(grid[0])
 	dp := make([][]map[int]bool, R)
@@ -115,7 +115,7 @@ So we need to:
 
 ### Implementation
 
-```go {linenos=inline}
+```go
 func minCost(grid [][]int) int {
 	R, C := len(grid), len(grid[0])
 	dp := make([][][1024]bool, R)
@@ -183,7 +183,7 @@ So we need to:
 
 ### Implementation
 
-```go {linenos=inline}
+```go
 func minCost(grid [][]int) int {
 	R, C := len(grid), len(grid[0])
 
@@ -258,7 +258,7 @@ bits[v/64] |= 1 << (v % 64)
 
 And to retrieve each number, we can use a for loop with an offset and a counter with bit shifting.
 
-```go {linenos=inline}
+```go
 // Example
 bits := uint64(1 << 7) // Setting the number 7 in uint64
 bits |= uint64(1 << 4) // Setting the number 4 in unint64
@@ -314,7 +314,7 @@ So we need to:
 
 ### Implementation
 
-```go {linenos=inline}
+```go
 func minCost(grid [][]int) int {
 	R, C := len(grid), len(grid[0])
 

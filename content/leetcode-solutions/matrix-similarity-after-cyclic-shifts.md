@@ -32,7 +32,7 @@ So we can apply a single uniform check across all rows without distinguishing ev
 
 # Code
 
-```go {linenos=inline}
+```go
 func areSimilar(mat [][]int, k int) bool {
 	MOD := len(mat[0])
 	k %= MOD

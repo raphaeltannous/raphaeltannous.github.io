@@ -96,7 +96,7 @@ Then when do we update the stack? When we only have the top of the stack going r
 
 # Code
 
-```go {linenos=inline}
+```go
 import "slices"
 
 type robot struct {
