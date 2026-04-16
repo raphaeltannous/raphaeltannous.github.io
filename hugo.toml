@@ -29,4 +29,6 @@ theme = "nojs"
           inline = [['\(', '\)'], ['$', '$']]
 
   [markup.highlight]
+    anchorLineNos = true
     lineNos = "inline"
+    noClasses = false
