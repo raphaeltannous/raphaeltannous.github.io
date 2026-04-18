@@ -32,3 +32,8 @@ theme = "nojs"
     anchorLineNos = true
     lineNos = "inline"
     noClasses = false
+
+
+[params]
+  [params.footer]
+    text = "Slop made by a human :)"
