@@ -9,14 +9,15 @@ title: '/riyt.dev/'
 {{< socials >}}
 
 Hey! I'm  Raphael Tannous. Nice to meet you!
-I like Linux (Arch BTW!), and I program mostly in Go.
+
+I am a Go developer who uses Arch Linux (btw!).
 I have a strong interest in cybersecurity and applied cryptography.
-I enjoy writing simple, non-bloated software, and listening to [music](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
+I enjoy writing simple, non-bloated software.
+
 Enjoy the site (No Javascript)!
 
 ## My Projects
 
-The majority of the projects I've shared publicly are written in Golang.
 These are some of my endeavours:
 
 {{< repository
@@ -35,7 +36,7 @@ These are some of my endeavours:
 
 ## Linux Setup
 
-I run Arch Linux, which is a minimal Linux distribution that I’ve customized to my liking.
+I run [Arch Linux](https://archlinux.org).
 Here are some of the programs that I use:
 - Window Manager: [niri](https://niri-wm.github.io/niri/).
 - Code Editor: [Helix](https://helix-editor.com/).
