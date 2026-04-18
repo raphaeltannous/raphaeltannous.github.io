@@ -4,7 +4,7 @@ draft: false
 title: '/riyt.dev/'
 ---
 
-![Conding in nature image](./attachments/home.png "Touching grass...")
+![Conding in nature image](./attachments/home.jpg "Touching grass...")
 
 {{< socials >}}
 
