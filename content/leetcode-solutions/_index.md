@@ -4,4 +4,4 @@ draft: false
 title: 'LeetCode Solutions'
 ---
 
-A collection of problems solved with detailed explanations, code implementations, and complexity analysis. Explore solutions across various difficulty levels and topics to strengthen your problem-solving skills.
+A bunch of [LeetCode](https://leetcode.com) problems solved with detailed explanations and thought process.
