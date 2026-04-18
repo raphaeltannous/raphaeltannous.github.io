@@ -10,3 +10,6 @@
 - name: 'LeetCode'
   link: 'https://leetcode.com/u/raphaeltannous/'
   icon: 'brands/leetcode'
+- name: 'Signal'
+  link: 'https://signal.me/#eu/F-0GPb_yLjr9an2QobfmmaYRA2QYU01qcx519D1kbiYOaMdel5RGZZAE6RkJmTxH'
+  icon: 'brands/signal-messenger'
